@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #65c3eb;
+    --secondary-color: #2984c1;
+    --bg-color: #0d1512;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+  max-width: 500px;
+  gap: 72px;
+  padding: 17px;
+  width: 100%;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset {
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
