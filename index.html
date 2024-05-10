@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journeymans Blog Survey Form</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <h1 id="title">Journeymans Blog Survey Form</h1>
@@ -12,11 +13,13 @@
     <form id="survey-form">
         <fieldset>
           <label for="name"> Name:
-            <input id=name type="text" required />
+            <input id=name type="text" placeholder="Your Name" required />
           </label>
           <label for="email"> Email: 
-            <input id=email type="text" required />
+            <input id=email type="text" placeholder="1234@mail.com" required />
           </label>
+          <label for="age"> Age: <input id="age" type="text" 
+            min="13" max="120" placeholder="Your Age" required/>
       </form>
 </body>
 </html>
